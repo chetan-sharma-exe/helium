@@ -63,7 +63,7 @@ function App() {
             height: "40px",
             marginLeft: "3vw",
           }}
-          src="/public/logo.png"
+          src="/logo.png"
           alt="logo"
         />
       </div>

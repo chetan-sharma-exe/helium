@@ -1,0 +1,77 @@
+.chat_container {
+  height: 67%;
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+}
+
+.ai_res {
+  min-height: 20px;
+  display: block;
+  font-size: 18px;
+  color: #cfcfcf;
+  margin-left: 30px;
+  margin-right: 20px;
+  margin-bottom: 15px;
+  flex-shrink: 0;
+}
+
+.cl_res {
+  min-height: 20px;
+  display: block;
+  font-size: 18px;
+  color: #cfcfcf;
+  margin-left: auto;
+  padding: 10px;
+  background: #393e46;
+  border-radius: 30px;
+  margin-bottom: 15px;
+  flex-shrink: 0;
+  margin-right: 20px;
+}
+
+input {
+  width: 100%;
+  height: 100%;
+  border-radius: 35px;
+  margin-top: 5vh;
+  background: #393e46;
+  border: none;
+  outline: none;
+  color: #cfcfcf;
+  font-size: 18px;
+  padding-left: 25px;
+  display: flex;
+  padding-right: 10vh;
+}
+
+input::placeholder {
+  color: #cfcfcf;
+}
+
+.btn {
+  background: #ffd369;
+  position: absolute;
+  height: 7vh;
+  width: 7vh;
+  border-radius: 3.5vh;
+  border: none;
+  right: 10px;
+  top: 50%;
+  transform: translateY(20%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #cca854;
+}
+
+@media (max-width: 768px) {
+  .chat_container {
+    width: 100%;
+  }
+}

@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Geist;
+}
+
+/* Style the scrollbar */
+::-webkit-scrollbar {
+  width: 12px; /* Width of the vertical scrollbar */
+  height: 12px; /* Height of the horizontal scrollbar */
+}
+
+/* Track (background of the scrollbar) */
+::-webkit-scrollbar-track {
+  background: #8b733a; /* Light grey background */
+  border-radius: 10px; /* Optional: Rounded corners */
+}
+
+/* Handle (scrollbar thumb) */
+::-webkit-scrollbar-thumb {
+  background: #ffd369; /* Gold-colored handle */
+  border-radius: 10px; /* Rounded corners */
+  /* border: 3px solid #f0f0f0; */
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #cca854; /* Darker gold on hover */
+}
+
+/* For Firefox */
+.scroll-container {
+  scrollbar-width: thin; /* Make scrollbar thinner */
+  scrollbar-color: #c28f32 #f0f0f0; /* Handle and track colors */
+}
